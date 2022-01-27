@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="microservices" nsURI="http://www.bg.com.tr/microarc/microservices/1.0.0.0"
+    nsPrefix="microservices">
+  <eClassifiers xsi:type="ecore:EClass" name="ModelElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connection" upperBound="-1"
+        eType="#//ModelElement" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Microservice" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="User" eSuperTypes="#//AuxiliaryElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="API_Gateway" eSuperTypes="#//AuxiliaryElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="LoadBalancer" eSuperTypes="#//AuxiliaryElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataBase" eSuperTypes="#//MicroserviceElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MicroserviceElements" abstract="true"
+      eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AuxiliaryElements" abstract="true" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EventBroker" eSuperTypes="#//AuxiliaryElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MessageBroker" eSuperTypes="#//AuxiliaryElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MobileUI" eSuperTypes="#//AuxiliaryElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="WebUI" eSuperTypes="#//AuxiliaryElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MicroserviceModel">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modelelements" upperBound="-1"
+        eType="#//ModelElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceRegistry" eSuperTypes="#//AuxiliaryElements"/>
+</ecore:EPackage>

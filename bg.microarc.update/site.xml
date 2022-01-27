@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/bg.microarc.feature_1.0.0.202201061643.jar" id="bg.microarc.feature" version="1.0.0.202201061643">
+      <category name="MicroArc"/>
+   </feature>
+   <category-def name="MicroArc" label="MicroArc Diagrams">
+      <description>
+         Bg Microarc project
+      </description>
+   </category-def>
+</site>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="bmc" nsURI="http://www.bg.com.tr/microarc/bmc/1.0.0.0" nsPrefix="bmc">
+  <eClassifiers xsi:type="ecore:EClass" name="BMCModel">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modelelements" upperBound="-1"
+        eType="#//ModelElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connection" upperBound="-1"
+        eType="#//ModelElement" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Infrastructure" abstract="true" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="KeyActivities" eSuperTypes="#//Infrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="KeyPartners" eSuperTypes="#//Infrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="KeyResources" eSuperTypes="#//Infrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Customers" abstract="true" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CustomerSegments" eSuperTypes="#//Customers"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CustomerRelationships" eSuperTypes="#//Customers"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Channels" eSuperTypes="#//Customers"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Proposition" abstract="true" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ValueProposition" eSuperTypes="#//Proposition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Finance" abstract="true" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CostStructure" eSuperTypes="#//Finance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RevenueStreams" eSuperTypes="#//Finance"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BMC" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Event" eSuperTypes="#//Additional"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Additional" abstract="true" eSuperTypes="#//ModelElement"/>
+</ecore:EPackage>

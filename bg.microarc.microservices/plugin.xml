@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated microservices -->
+      <package
+            uri="http://www.bg.com.tr/microarc/microservices/1.0.0.0"
+            class="bg.microarc.microservices.MicroservicesPackage"
+            genModel="model/microservices.genmodel"/>
+   </extension>
+
+</plugin>

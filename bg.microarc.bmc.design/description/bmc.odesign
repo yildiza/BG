@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="bmc" version="12.0.0.2017041100">
+  <ownedViewpoints name="BMCModel" modelFileExtension="bmc">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BMCModel Diagram" domainClass="bmc::BMCModel" enablePopupBars="true">
+      <metamodel href="http://www.bg.com.tr/microarc/bmc/1.0.0.0#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="BMC Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::BMC">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="KeyActivities Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::KeyActivities">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="KeyPartners Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::KeyPartners">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="KeyResources Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::KeyResources">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CustomerSegments Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::CustomerSegments">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CustomerRelationships Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::CustomerRelationships">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Channels Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::Channels">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ValueProposition Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::ValueProposition">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CostStructure Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::CostStructure">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="RevenueStreams Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:modelelements" domainClass="bmc::RevenueStreams">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" labelSize="12" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Event Node" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="bmc::Event">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" iconPath="/bg.microarc.bmc.design/icons/Event-small.gif" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/bg.microarc.bmc.design/icons/event.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="connect Edge" deletionDescription="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='unsetConnection']" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" sourceMapping="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='BMC%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='Channels%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CostStructure%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CustomerRelationships%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CustomerSegments%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyActivities%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyPartners%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyResources%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='RevenueStreams%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='ValueProposition%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='Event%20Node']" targetMapping="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='BMC%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='Channels%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CostStructure%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CustomerRelationships%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CustomerSegments%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyActivities%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyPartners%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyResources%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='RevenueStreams%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='ValueProposition%20Node'] //@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='Event%20Node']" targetFinderExpression="feature:connection" reconnections="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='reconnectConnnection']">
+          <style sizeComputationExpression="2" foldingStyle="SOURCE">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="channelConnect" labelDirectEdit="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" sourceMapping="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='ValueProposition%20Node']" targetMapping="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CustomerRelationships%20Node']" targetFinderExpression="feature:connection" domainClass="bmc::Channels" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="BMC Tools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="BMC" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='BMC%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::BMC" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New BMC '+container.modelelements->filter(bmc::BMC)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Value Proposition" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='ValueProposition%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::ValueProposition" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Value Proposition '+container.modelelements->filter(bmc::ValueProposition)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Customer Segment" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CustomerSegments%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::CustomerSegments" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Customer Segment '+container.modelelements->filter(bmc::CustomerSegments)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Customer Relationships" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CustomerRelationships%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::CustomerRelationships" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Customer Relationship '+container.modelelements->filter(bmc::CustomerRelationships)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Channels" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='Channels%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::Channels" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Channel '+container.modelelements->filter(bmc::Channels)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Key Activities" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyActivities%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::KeyActivities" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Key Activity '+container.modelelements->filter(bmc::KeyActivities)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Key Partners" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyPartners%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::KeyPartners" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Key Partner '+container.modelelements->filter(bmc::KeyPartners)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Key Resources" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='KeyResources%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::KeyResources" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Key Resource '+container.modelelements->filter(bmc::KeyResources)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Cost Structure" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='CostStructure%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::CostStructure" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Cost Structure '+container.modelelements->filter(bmc::CostStructure)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Revenue Stream" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='RevenueStreams%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::RevenueStreams" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Revenue Stream '+container.modelelements->filter(bmc::RevenueStreams)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Event" nodeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@nodeMappings[name='Event%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bmc::Event" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Event '+container.modelelements->filter(bmc::Event)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="setConnection" label="Connection" edgeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@edgeMappings[name='connect%20Edge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="connection" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="unsetConnection">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="connection" elementExpression="[elementView.targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="reconnectConnnection">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="connection" elementExpression="var:source"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="connection" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="channelConnect" edgeMappings="//@ownedViewpoints[name='BMCModel']/@ownedRepresentations[name='BMCModel%20Diagram']/@defaultLayer/@edgeMappings[name='channelConnect']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="connection" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="bg.microarc.bmc.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

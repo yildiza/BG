@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="epc" nsURI="http://www.bg.com.tr/microarc/epc/1.0.0.0" nsPrefix="epc">
+  <eClassifiers xsi:type="ecore:EClass" name="Process" eSuperTypes="#//ModelElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modelelements" upperBound="-1"
+        eType="#//ModelElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connnection" upperBound="-1"
+        eType="#//ModelElement" derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Event" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Operators" abstract="true" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Xor" eSuperTypes="#//Operators"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Or" eSuperTypes="#//Operators"/>
+  <eClassifiers xsi:type="ecore:EClass" name="And" eSuperTypes="#//Operators"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessElements" abstract="true" eSuperTypes="#//ModelElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//ProcessElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Database" eSuperTypes="#//ProcessElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Document" eSuperTypes="#//ProcessElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessInterface" eSuperTypes="#//ProcessElements"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ProcessPath" eSuperTypes="#//ProcessElements"/>
+</ecore:EPackage>

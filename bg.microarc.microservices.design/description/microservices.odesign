@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="microservices" version="12.0.0.2017041100">
+  <ownedViewpoints name="MicroservicesModel" modelFileExtension="microservices">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="MicroservicesModel Diagram" domainClass="microservices::MicroserviceModel" enablePopupBars="true">
+      <metamodel href="http://www.bg.com.tr/microarc/microservices/1.0.0.0#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Microservice Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::Microservice">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/Microservices.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Database Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::DataBase">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/DataBase.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="User Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::User">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/Users.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="WebUI Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::WebUI">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/WebUI.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="MobileUI Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::MobileUI">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/MobileUI.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="API_Gateway Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::API_Gateway">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/API_Gateway.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="LoadBalancer Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::LoadBalancer">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/LoadBalancer.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="EventBroker Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::EventBroker">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/EventBroker.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="MessageBroker Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::MessageBroker">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/MessageBroker.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ServiceRegistry Node" labelDirectEdit="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" domainClass="microservices::ServiceRegistry">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/bg.microarc.microservices.design/icons/ServiceRegistry.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="connect Edge" deletionDescription="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='unsetConnection']" sourceMapping="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='API_Gateway%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='Database%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='EventBroker%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='LoadBalancer%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='MessageBroker%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='Microservice%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='MobileUI%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='ServiceRegistry%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='User%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='WebUI%20Node']" targetMapping="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='API_Gateway%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='Database%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='EventBroker%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='LoadBalancer%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='MessageBroker%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='Microservice%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='MobileUI%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='ServiceRegistry%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='User%20Node'] //@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='WebUI%20Node']" targetFinderExpression="feature:connection" reconnections="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='reconnectConnection']">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="Microservices Tool">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Microservice" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='Microservice%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::Microservice" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Microservice '+container.modelelements->filter(microservices::Microservice)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Database" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='Database%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::DataBase" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Database '+container.modelelements->filter(microservices::DataBase)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="User" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='User%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::User" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New User '+container.modelelements->filter(microservices::User)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Web UI" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='WebUI%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::WebUI" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Web UI '+container.modelelements->filter(microservices::WebUI)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Mobile UI" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='MobileUI%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::MobileUI" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Mobile UI '+container.modelelements->filter(microservices::MobileUI)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="API Gateway" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='API_Gateway%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::API_Gateway" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New API Gateway '+container.modelelements->filter(microservices::API_Gateway)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Load Balancer" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='LoadBalancer%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::LoadBalancer" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Load Balancer '+container.modelelements->filter(microservices::LoadBalancer)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Event Broker" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='EventBroker%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::EventBroker" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Event Broker '+container.modelelements->filter(microservices::EventBroker)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Message Broker" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='MessageBroker%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::MessageBroker" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Message Broker '+container.modelelements->filter(microservices::MessageBroker)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Service Registry" nodeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@nodeMappings[name='ServiceRegistry%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="microservices::ServiceRegistry" referenceName="modelelements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New Service Registry '+container.modelelements->filter(microservices::ServiceRegistry)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="setConnection" label="Connection" edgeMappings="//@ownedViewpoints[name='MicroservicesModel']/@ownedRepresentations[name='MicroservicesModel%20Diagram']/@defaultLayer/@edgeMappings[name='connect%20Edge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="connection" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="unsetConnection">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="connection" elementExpression="[elementView.targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="reconnectConnection">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="connection" elementExpression="var:source"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="connection" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="bg.microarc.microservices.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

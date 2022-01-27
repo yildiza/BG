@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="bg.microarc.bmc.design.Activator"
+               id="bg.microarc.bmc.design"
+	       name="bmc">
+    </component>
+  </extension>
+</plugin>
